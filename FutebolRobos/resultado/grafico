@@ -1,0 +1,8 @@
+set size 1, 0.5
+set encoding iso_8859_1
+set xlabel "Episodes"
+set ylabel "gols" 
+set term postscript portrait
+set term postscript color
+set output "comparacao.eps"
+plot [0:500] [0:10] "evolution-0_0.txt" title "jogo" with lines lt 1 lw 2
