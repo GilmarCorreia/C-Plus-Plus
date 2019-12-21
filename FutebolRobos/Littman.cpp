@@ -35,7 +35,7 @@ void gotoxy(int x, int y) {
 //Para n�o mostrar a telinha de jogo, retire o comentario do define abaixo
 //#define IMPRIME_JOGO
 
-#define TRIALS 200
+#define TRIALS 50
 #define JOGADAS_ALTERNADAS
 #define MAX_PASSOS_POR_JOGADA 5000
 //#define NUMJOGADAS 1000000
